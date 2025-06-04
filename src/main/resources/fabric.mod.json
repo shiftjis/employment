@@ -1,0 +1,24 @@
+{
+    "schemaVersion": 1,
+    "id": "employment",
+    "version": "${version}",
+    "name": "Employment",
+    "description": "",
+    "authors": [],
+    "license": "All-Rights-Reserved",
+    "icon": "assets/employment/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "org.github.shiftjis.employment.EmploymentMod"
+        ]
+    },
+    "mixins": [
+        "employment.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
